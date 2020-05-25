@@ -23,5 +23,12 @@ class DatabaseSeeder extends Seeder
         $this->call(PlansTableSeeder::class);
         $this->call(PhysicalAssessmentsTableSeeder::class);
         $this->call(UserRolesTableSeeder::class);
+        $this->call(RolesTableSeeder::class);
+        $this->call(PermissionRoleTableSeeder::class);
+        $this->call(DataRowsTableSeeder::class);
+        $this->call(DataTypesTableSeeder::class);
+        $this->call(FailedJobsTableSeeder::class);
+        $this->call(MigrationsTableSeeder::class);
+        $this->call(SettingsTableSeeder::class);
     }
 }
