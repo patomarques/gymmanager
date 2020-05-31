@@ -671,7 +671,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 2,
+                'order' => 3,
             ),
             41 => 
             array (
@@ -687,7 +687,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 3,
+                'order' => 4,
             ),
             42 => 
             array (
@@ -697,13 +697,13 @@ class DataRowsTableSeeder extends Seeder
                 'type' => 'timestamp',
                 'display_name' => 'Criado em',
                 'required' => 0,
-                'browse' => 1,
-                'read' => 1,
+                'browse' => 0,
+                'read' => 0,
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 4,
+                'order' => 6,
             ),
             43 => 
             array (
@@ -713,13 +713,13 @@ class DataRowsTableSeeder extends Seeder
                 'type' => 'timestamp',
                 'display_name' => 'Atualizado em',
                 'required' => 0,
-                'browse' => 1,
-                'read' => 1,
+                'browse' => 0,
+                'read' => 0,
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 5,
+                'order' => 7,
             ),
             44 => 
             array (
@@ -735,7 +735,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 6,
+                'order' => 8,
             ),
             45 => 
             array (
@@ -751,7 +751,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 7,
+                'order' => 2,
             ),
             46 => 
             array (
@@ -761,13 +761,13 @@ class DataRowsTableSeeder extends Seeder
                 'type' => 'text',
                 'display_name' => 'Descrição',
                 'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
                 'details' => '{}',
-                'order' => 8,
+                'order' => 9,
             ),
             47 => 
             array (
@@ -1303,15 +1303,15 @@ class DataRowsTableSeeder extends Seeder
                 'data_type_id' => 11,
                 'field' => 'group_class_belongsto_instructor_relationship',
                 'type' => 'relationship',
-                'display_name' => 'instructors',
+                'display_name' => 'Instrutor/a',
                 'required' => 0,
                 'browse' => 1,
                 'read' => 1,
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Instructor","table":"instructors","type":"belongsTo","column":"instructor_id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":"0"}',
-                'order' => 9,
+                'details' => '{"model":"App\\\\Instructor","table":"instructors","type":"belongsTo","column":"instructor_id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 5,
             ),
             81 => 
             array (
@@ -1535,7 +1535,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 9,
+                'order' => 10,
             ),
             95 => 
             array (
