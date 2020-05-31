@@ -73,24 +73,6 @@ class DataTypesTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 6,
-                'name' => 'pages',
-                'slug' => 'pages',
-                'display_name_singular' => 'Page',
-                'display_name_plural' => 'Pages',
-                'icon' => 'voyager-file-text',
-                'model_name' => 'TCG\\Voyager\\Models\\Page',
-                'policy_name' => NULL,
-                'controller' => '',
-                'description' => '',
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => NULL,
-                'created_at' => '2020-04-29 02:02:48',
-                'updated_at' => '2020-04-29 02:02:48',
-            ),
-            4 => 
-            array (
                 'id' => 7,
                 'name' => 'customers',
                 'slug' => 'customers',
@@ -105,9 +87,9 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-04-29 05:23:20',
-                'updated_at' => '2020-05-18 05:29:47',
+                'updated_at' => '2020-05-31 18:21:54',
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 8,
                 'name' => 'instructors',
@@ -125,14 +107,14 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2020-04-30 00:33:09',
                 'updated_at' => '2020-05-04 06:21:42',
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 11,
                 'name' => 'group_classes',
                 'slug' => 'group-classes',
                 'display_name_singular' => 'Aula',
                 'display_name_plural' => 'Aulas',
-                'icon' => 'voyager-people',
+                'icon' => 'voyager-calendar',
                 'model_name' => 'App\\GroupClass',
                 'policy_name' => NULL,
                 'controller' => NULL,
@@ -141,9 +123,9 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-05-02 20:36:10',
-                'updated_at' => '2020-05-04 06:21:22',
+                'updated_at' => '2020-05-31 18:51:18',
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 12,
                 'name' => 'customers_has_group_classes',
@@ -159,27 +141,9 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-05-03 23:35:35',
-                'updated_at' => '2020-05-04 04:31:13',
+                'updated_at' => '2020-05-30 23:43:12',
             ),
-            8 => 
-            array (
-                'id' => 13,
-                'name' => 'plans',
-                'slug' => 'plans',
-                'display_name_singular' => 'Plano',
-                'display_name_plural' => 'Planos',
-                'icon' => 'voyager-ticket',
-                'model_name' => 'App\\Plan',
-                'policy_name' => NULL,
-                'controller' => NULL,
-                'description' => NULL,
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-05-10 16:41:28',
-                'updated_at' => '2020-05-18 09:37:56',
-            ),
-            9 => 
+            7 => 
             array (
                 'id' => 27,
                 'name' => 'payments',
@@ -195,7 +159,43 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-05-12 05:56:40',
-                'updated_at' => '2020-05-18 09:12:34',
+                'updated_at' => '2020-05-30 08:54:20',
+            ),
+            8 => 
+            array (
+                'id' => 28,
+                'name' => 'vacations',
+                'slug' => 'vacations',
+                'display_name_singular' => 'Féria',
+                'display_name_plural' => 'Férias',
+                'icon' => 'voyager-photos',
+                'model_name' => 'App\\Vacation',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-05-30 01:27:10',
+                'updated_at' => '2020-05-31 18:55:34',
+            ),
+            9 => 
+            array (
+                'id' => 29,
+                'name' => 'physical_assessments',
+                'slug' => 'physical-assessments',
+                'display_name_singular' => 'Avaliação Fisíca',
+                'display_name_plural' => 'Avaliações Fisícas',
+                'icon' => 'voyager-receipt',
+                'model_name' => 'App\\PhysicalAssessment',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-05-30 23:39:24',
+                'updated_at' => '2020-05-31 19:05:41',
             ),
         ));
         

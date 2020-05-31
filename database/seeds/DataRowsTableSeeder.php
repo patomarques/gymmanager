@@ -355,198 +355,6 @@ class DataRowsTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 44,
-                'data_type_id' => 6,
-                'field' => 'id',
-                'type' => 'number',
-                'display_name' => 'ID',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => NULL,
-                'order' => 1,
-            ),
-            22 => 
-            array (
-                'id' => 45,
-                'data_type_id' => 6,
-                'field' => 'author_id',
-                'type' => 'text',
-                'display_name' => 'Author',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => NULL,
-                'order' => 2,
-            ),
-            23 => 
-            array (
-                'id' => 46,
-                'data_type_id' => 6,
-                'field' => 'title',
-                'type' => 'text',
-                'display_name' => 'Title',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 3,
-            ),
-            24 => 
-            array (
-                'id' => 47,
-                'data_type_id' => 6,
-                'field' => 'excerpt',
-                'type' => 'text_area',
-                'display_name' => 'Excerpt',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 4,
-            ),
-            25 => 
-            array (
-                'id' => 48,
-                'data_type_id' => 6,
-                'field' => 'body',
-                'type' => 'rich_text_box',
-                'display_name' => 'Body',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 5,
-            ),
-            26 => 
-            array (
-                'id' => 49,
-                'data_type_id' => 6,
-                'field' => 'slug',
-                'type' => 'text',
-                'display_name' => 'Slug',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"slugify":{"origin":"title"},"validation":{"rule":"unique:pages,slug"}}',
-                'order' => 6,
-            ),
-            27 => 
-            array (
-                'id' => 50,
-                'data_type_id' => 6,
-                'field' => 'meta_description',
-                'type' => 'text',
-                'display_name' => 'Meta Description',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 7,
-            ),
-            28 => 
-            array (
-                'id' => 51,
-                'data_type_id' => 6,
-                'field' => 'meta_keywords',
-                'type' => 'text',
-                'display_name' => 'Meta Keywords',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 8,
-            ),
-            29 => 
-            array (
-                'id' => 52,
-                'data_type_id' => 6,
-                'field' => 'status',
-                'type' => 'select_dropdown',
-                'display_name' => 'Status',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"default":"INACTIVE","options":{"INACTIVE":"INACTIVE","ACTIVE":"ACTIVE"}}',
-                'order' => 9,
-            ),
-            30 => 
-            array (
-                'id' => 53,
-                'data_type_id' => 6,
-                'field' => 'created_at',
-                'type' => 'timestamp',
-                'display_name' => 'Created At',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => NULL,
-                'order' => 10,
-            ),
-            31 => 
-            array (
-                'id' => 54,
-                'data_type_id' => 6,
-                'field' => 'updated_at',
-                'type' => 'timestamp',
-                'display_name' => 'Updated At',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => NULL,
-                'order' => 11,
-            ),
-            32 => 
-            array (
-                'id' => 55,
-                'data_type_id' => 6,
-                'field' => 'image',
-                'type' => 'image',
-                'display_name' => 'Page Image',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => NULL,
-                'order' => 12,
-            ),
-            33 => 
-            array (
                 'id' => 56,
                 'data_type_id' => 7,
                 'field' => 'id',
@@ -561,7 +369,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            34 => 
+            22 => 
             array (
                 'id' => 57,
                 'data_type_id' => 7,
@@ -574,10 +382,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
-            35 => 
+            23 => 
             array (
                 'id' => 58,
                 'data_type_id' => 7,
@@ -585,15 +393,15 @@ class DataRowsTableSeeder extends Seeder
                 'type' => 'text',
                 'display_name' => 'RG',
                 'required' => 0,
-                'browse' => 1,
+                'browse' => 0,
                 'read' => 1,
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 4,
             ),
-            36 => 
+            24 => 
             array (
                 'id' => 59,
                 'data_type_id' => 7,
@@ -601,20 +409,20 @@ class DataRowsTableSeeder extends Seeder
                 'type' => 'text',
                 'display_name' => 'Cpf',
                 'required' => 0,
-                'browse' => 1,
+                'browse' => 0,
                 'read' => 1,
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
-                'order' => 4,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 5,
             ),
-            37 => 
+            25 => 
             array (
                 'id' => 60,
                 'data_type_id' => 7,
                 'field' => 'status',
-                'type' => 'checkbox',
+                'type' => 'select_dropdown',
                 'display_name' => 'Status',
                 'required' => 0,
                 'browse' => 1,
@@ -622,10 +430,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"ativo":"Ativo","inativo":"Inativo"}',
-                'order' => 5,
+                'details' => '{"options":{"ativo":"Ativo","inativo":"Inativo"}}',
+                'order' => 6,
             ),
-            38 => 
+            26 => 
             array (
                 'id' => 61,
                 'data_type_id' => 7,
@@ -635,13 +443,13 @@ class DataRowsTableSeeder extends Seeder
                 'required' => 0,
                 'browse' => 1,
                 'read' => 1,
-                'edit' => 1,
+                'edit' => 0,
                 'add' => 0,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 6,
+                'delete' => 0,
+                'details' => '{"format":"%d\\/%m\\/%Y"}',
+                'order' => 14,
             ),
-            39 => 
+            27 => 
             array (
                 'id' => 62,
                 'data_type_id' => 7,
@@ -654,10 +462,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{}',
-                'order' => 7,
+                'details' => '{"format":"%d\\/%m\\/%Y"}',
+                'order' => 15,
             ),
-            40 => 
+            28 => 
             array (
                 'id' => 63,
                 'data_type_id' => 7,
@@ -670,10 +478,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{}',
-                'order' => 8,
+                'details' => '{"format":"%d\\/%m\\/%Y"}',
+                'order' => 16,
             ),
-            41 => 
+            29 => 
             array (
                 'id' => 64,
                 'data_type_id' => 8,
@@ -689,7 +497,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            42 => 
+            30 => 
             array (
                 'id' => 65,
                 'data_type_id' => 8,
@@ -705,7 +513,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            43 => 
+            31 => 
             array (
                 'id' => 66,
                 'data_type_id' => 8,
@@ -721,7 +529,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            44 => 
+            32 => 
             array (
                 'id' => 67,
                 'data_type_id' => 8,
@@ -737,7 +545,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            45 => 
+            33 => 
             array (
                 'id' => 68,
                 'data_type_id' => 8,
@@ -753,7 +561,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            46 => 
+            34 => 
             array (
                 'id' => 69,
                 'data_type_id' => 8,
@@ -769,7 +577,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            47 => 
+            35 => 
             array (
                 'id' => 70,
                 'data_type_id' => 8,
@@ -785,7 +593,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 7,
             ),
-            48 => 
+            36 => 
             array (
                 'id' => 81,
                 'data_type_id' => 1,
@@ -801,7 +609,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Customer","table":"customers","type":"hasMany","column":"user_id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
                 'order' => 13,
             ),
-            49 => 
+            37 => 
             array (
                 'id' => 82,
                 'data_type_id' => 7,
@@ -815,9 +623,9 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"relationship":{"key":"id","label":"name","scopes":["active"]}}',
-                'order' => 9,
+                'order' => 7,
             ),
-            50 => 
+            38 => 
             array (
                 'id' => 83,
                 'data_type_id' => 1,
@@ -833,7 +641,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            51 => 
+            39 => 
             array (
                 'id' => 90,
                 'data_type_id' => 11,
@@ -849,12 +657,12 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            52 => 
+            40 => 
             array (
                 'id' => 91,
                 'data_type_id' => 11,
                 'field' => 'class_date_time',
-                'type' => 'text',
+                'type' => 'timestamp',
                 'display_name' => 'Data/Hora',
                 'required' => 0,
                 'browse' => 1,
@@ -865,7 +673,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            53 => 
+            41 => 
             array (
                 'id' => 92,
                 'data_type_id' => 11,
@@ -881,7 +689,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            54 => 
+            42 => 
             array (
                 'id' => 93,
                 'data_type_id' => 11,
@@ -897,7 +705,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            55 => 
+            43 => 
             array (
                 'id' => 94,
                 'data_type_id' => 11,
@@ -913,7 +721,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            56 => 
+            44 => 
             array (
                 'id' => 95,
                 'data_type_id' => 11,
@@ -929,7 +737,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            57 => 
+            45 => 
             array (
                 'id' => 96,
                 'data_type_id' => 11,
@@ -945,7 +753,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 7,
             ),
-            58 => 
+            46 => 
             array (
                 'id' => 97,
                 'data_type_id' => 11,
@@ -961,7 +769,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 8,
             ),
-            59 => 
+            47 => 
             array (
                 'id' => 98,
                 'data_type_id' => 12,
@@ -977,7 +785,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            60 => 
+            48 => 
             array (
                 'id' => 99,
                 'data_type_id' => 12,
@@ -993,7 +801,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            61 => 
+            49 => 
             array (
                 'id' => 100,
                 'data_type_id' => 12,
@@ -1009,7 +817,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            62 => 
+            50 => 
             array (
                 'id' => 101,
                 'data_type_id' => 12,
@@ -1025,7 +833,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            63 => 
+            51 => 
             array (
                 'id' => 102,
                 'data_type_id' => 12,
@@ -1041,7 +849,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            64 => 
+            52 => 
             array (
                 'id' => 103,
                 'data_type_id' => 12,
@@ -1057,119 +865,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            65 => 
-            array (
-                'id' => 104,
-                'data_type_id' => 13,
-                'field' => 'id',
-                'type' => 'text',
-                'display_name' => 'Id',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{}',
-                'order' => 1,
-            ),
-            66 => 
-            array (
-                'id' => 105,
-                'data_type_id' => 13,
-                'field' => 'description',
-                'type' => 'text',
-                'display_name' => 'Descrição',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 2,
-            ),
-            67 => 
-            array (
-                'id' => 106,
-                'data_type_id' => 13,
-                'field' => 'type',
-                'type' => 'text',
-                'display_name' => 'Período',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
-            ),
-            68 => 
-            array (
-                'id' => 107,
-                'data_type_id' => 13,
-                'field' => 'status',
-                'type' => 'checkbox',
-                'display_name' => 'Status',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"0":"Inativo","1":"Ativo"}',
-                'order' => 4,
-            ),
-            69 => 
-            array (
-                'id' => 108,
-                'data_type_id' => 13,
-                'field' => 'created_at',
-                'type' => 'timestamp',
-                'display_name' => 'Criado em',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{"format":"%d\\/%m\\/%y h:i:s"}',
-                'order' => 5,
-            ),
-            70 => 
-            array (
-                'id' => 109,
-                'data_type_id' => 13,
-                'field' => 'updated_at',
-                'type' => 'timestamp',
-                'display_name' => 'Atualizado em',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{"format":"%d\\/%m\\/%y"}',
-                'order' => 6,
-            ),
-            71 => 
-            array (
-                'id' => 110,
-                'data_type_id' => 13,
-                'field' => 'deleted_at',
-                'type' => 'timestamp',
-                'display_name' => 'Apagado em',
-                'required' => 0,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{}',
-                'order' => 7,
-            ),
-            72 => 
+            53 => 
             array (
                 'id' => 161,
                 'data_type_id' => 27,
@@ -1185,7 +881,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            73 => 
+            54 => 
             array (
                 'id' => 162,
                 'data_type_id' => 27,
@@ -1199,9 +895,9 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"min":0,"validation":{"rule":"required"}}',
-                'order' => 8,
+                'order' => 6,
             ),
-            74 => 
+            55 => 
             array (
                 'id' => 163,
                 'data_type_id' => 27,
@@ -1214,10 +910,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"format":"%d-%m-%Y","validation":{"rule":"required"}}',
-                'order' => 6,
+                'details' => '{"format":"%d\\/%m\\/%Y","validation":{"rule":"required"}}',
+                'order' => 4,
             ),
-            75 => 
+            56 => 
             array (
                 'id' => 164,
                 'data_type_id' => 27,
@@ -1230,26 +926,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"format":"%d-%m-%Y","validation":{"rule":"required"}}',
-                'order' => 7,
+                'details' => '{"format":"%d\\/%m\\/%Y","validation":{"rule":"required"}}',
+                'order' => 5,
             ),
-            76 => 
-            array (
-                'id' => 165,
-                'data_type_id' => 27,
-                'field' => 'plan_id',
-                'type' => 'select_dropdown',
-                'display_name' => 'Plano contratadado pelo cliente',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"relationship":{"key":"id","label":"name","scopes":["active"]},"validation":{"rule":"required"}}',
-                'order' => 3,
-            ),
-            77 => 
+            57 => 
             array (
                 'id' => 166,
                 'data_type_id' => 27,
@@ -1263,9 +943,9 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"options":{"adimplente":"Adimplente","inadimplente":"Inadimplente"}}',
-                'order' => 9,
+                'order' => 7,
             ),
-            78 => 
+            58 => 
             array (
                 'id' => 167,
                 'data_type_id' => 27,
@@ -1281,7 +961,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"relationship":{"key":"id","label":"name","scopes":["active"]},"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
-            79 => 
+            59 => 
             array (
                 'id' => 168,
                 'data_type_id' => 27,
@@ -1294,10 +974,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{"format":"%d-%m-%Y %H:%M"}',
-                'order' => 10,
+                'details' => '{"format":"%d\\/%m\\/%Y %H:%M"}',
+                'order' => 9,
             ),
-            80 => 
+            60 => 
             array (
                 'id' => 169,
                 'data_type_id' => 27,
@@ -1310,10 +990,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{"format":"%d-%m-%Y"}',
-                'order' => 11,
+                'details' => '{"format":"%d\\/%m\\/%Y"}',
+                'order' => 10,
             ),
-            81 => 
+            61 => 
             array (
                 'id' => 170,
                 'data_type_id' => 27,
@@ -1326,10 +1006,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 0,
                 'add' => 0,
                 'delete' => 0,
-                'details' => '{"format":"%d-%m-%Y"}',
-                'order' => 12,
+                'details' => '{"format":"%d\\/%m\\/%Y"}',
+                'order' => 11,
             ),
-            82 => 
+            62 => 
             array (
                 'id' => 171,
                 'data_type_id' => 27,
@@ -1343,14 +1023,254 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"model":"App\\\\Customer","table":"customers","type":"belongsTo","column":"customer_id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 3,
+            ),
+            63 => 
+            array (
+                'id' => 173,
+                'data_type_id' => 7,
+                'field' => 'address',
+                'type' => 'text',
+                'display_name' => 'Endereço de residência',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 9,
+            ),
+            64 => 
+            array (
+                'id' => 174,
+                'data_type_id' => 7,
+                'field' => 'number',
+                'type' => 'text',
+                'display_name' => 'Número',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 10,
+            ),
+            65 => 
+            array (
+                'id' => 175,
+                'data_type_id' => 7,
+                'field' => 'postalcode',
+                'type' => 'text',
+                'display_name' => 'CEP',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 8,
+            ),
+            66 => 
+            array (
+                'id' => 176,
+                'data_type_id' => 7,
+                'field' => 'state',
+                'type' => 'select_dropdown',
+                'display_name' => 'Estado',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"options":{"":"","AC":"Acre","AL":"Alagoas","AP":"Amap\\u00e1","AM":"Amazonas","BA":"Bahia","CE":"Cear\\u00e1","DF":"Distrito Federal","ES":"Esp\\u00edrito Santo","GO":"Goi\\u00e1s","MA":"Maranh\\u00e3o","MT":"Mato Grosso","MS":"Mato Grosso do Sul","MG":"Minas Gerais","PA":"Par\\u00e1","PB":"Para\\u00edba","PR":"Paran\\u00e1","PE":"Pernambuco","PI":"Piau\\u00ed","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RS":"Rio Grande do Sul","RO":"Rond\\u00f4nia","RR":"Roraima","SC":"Santa Catarina","SP":"S\\u00e3o Paulo","SE":"Sergipe","TO":"Tocantins"}}',
+                'order' => 12,
+            ),
+            67 => 
+            array (
+                'id' => 177,
+                'data_type_id' => 7,
+                'field' => 'city',
+                'type' => 'text',
+                'display_name' => 'Cidade',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required"}}',
+                'order' => 13,
+            ),
+            68 => 
+            array (
+                'id' => 178,
+                'data_type_id' => 7,
+                'field' => 'register_code',
+                'type' => 'text',
+                'display_name' => 'Código Matricula',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 3,
+            ),
+            69 => 
+            array (
+                'id' => 179,
+                'data_type_id' => 7,
+                'field' => 'district',
+                'type' => 'text',
+                'display_name' => 'Bairro',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 11,
+            ),
+            70 => 
+            array (
+                'id' => 180,
+                'data_type_id' => 28,
+                'field' => 'id',
+                'type' => 'text',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 2,
+            ),
+            71 => 
+            array (
+                'id' => 181,
+                'data_type_id' => 28,
+                'field' => 'date_starts',
+                'type' => 'date',
+                'display_name' => 'Data Início',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"format":"%d\\/%m\\/%y"}',
+                'order' => 3,
+            ),
+            72 => 
+            array (
+                'id' => 182,
+                'data_type_id' => 28,
+                'field' => 'date_ends',
+                'type' => 'date',
+                'display_name' => 'Data Fim',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"format":"%d\\/%m\\/%y"}',
                 'order' => 4,
             ),
-            83 => 
+            73 => 
             array (
-                'id' => 172,
+                'id' => 183,
+                'data_type_id' => 28,
+                'field' => 'days_remaining',
+                'type' => 'number',
+                'display_name' => 'Dias Restantes',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 5,
+            ),
+            74 => 
+            array (
+                'id' => 184,
+                'data_type_id' => 28,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Created At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%d\\/%m\\/%y"}',
+                'order' => 7,
+            ),
+            75 => 
+            array (
+                'id' => 185,
+                'data_type_id' => 28,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Updated At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"format":"%d\\/%m\\/%y"}',
+                'order' => 8,
+            ),
+            76 => 
+            array (
+                'id' => 186,
+                'data_type_id' => 28,
+                'field' => 'deleted_at',
+                'type' => 'timestamp',
+                'display_name' => 'Deleted At',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 9,
+            ),
+            77 => 
+            array (
+                'id' => 187,
+                'data_type_id' => 28,
+                'field' => 'status',
+                'type' => 'select_dropdown',
+                'display_name' => 'Status',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"options":{"ativo":"Ativo","inativo":"Inativo"}}',
+                'order' => 6,
+            ),
+            78 => 
+            array (
+                'id' => 190,
                 'data_type_id' => 27,
-                'field' => 'payment_hasone_plan_relationship',
-                'type' => 'relationship',
+                'field' => 'plan_type',
+                'type' => 'select_dropdown',
                 'display_name' => 'Plano',
                 'required' => 0,
                 'browse' => 1,
@@ -1358,8 +1278,312 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Plan","table":"plans","type":"belongsTo","column":"plan_id","key":"id","label":"description","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'details' => '{"options":{"mensal":"Mensal","anual":"Anual"}}',
+                'order' => 8,
+            ),
+            79 => 
+            array (
+                'id' => 191,
+                'data_type_id' => 7,
+                'field' => 'customer_belongsto_user_relationship',
+                'type' => 'relationship',
+                'display_name' => 'users',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"app\\\\User","table":"users","type":"belongsTo","column":"id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 17,
+            ),
+            80 => 
+            array (
+                'id' => 192,
+                'data_type_id' => 11,
+                'field' => 'group_class_belongsto_instructor_relationship',
+                'type' => 'relationship',
+                'display_name' => 'instructors',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Instructor","table":"instructors","type":"belongsTo","column":"instructor_id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 9,
+            ),
+            81 => 
+            array (
+                'id' => 193,
+                'data_type_id' => 29,
+                'field' => 'id',
+                'type' => 'text',
+                'display_name' => 'Id',
+                'required' => 1,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 2,
+            ),
+            82 => 
+            array (
+                'id' => 194,
+                'data_type_id' => 29,
+                'field' => 'anamnese_patient',
+                'type' => 'text',
+                'display_name' => 'Anamnese Paciente',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 3,
+            ),
+            83 => 
+            array (
+                'id' => 195,
+                'data_type_id' => 29,
+                'field' => 'skinfolds',
+                'type' => 'text',
+                'display_name' => 'Dobras Cutaneas',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 4,
+            ),
+            84 => 
+            array (
+                'id' => 196,
+                'data_type_id' => 29,
+                'field' => 'exercise_test',
+                'type' => 'text',
+                'display_name' => 'Exame Ergometrico',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
                 'order' => 5,
+            ),
+            85 => 
+            array (
+                'id' => 197,
+                'data_type_id' => 29,
+                'field' => 'evaluation_date',
+                'type' => 'date',
+                'display_name' => 'Data Avaliação',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 6,
+            ),
+            86 => 
+            array (
+                'id' => 198,
+                'data_type_id' => 29,
+                'field' => 'next_evaluation_date',
+                'type' => 'date',
+                'display_name' => 'Data Próxima Avaliação',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 7,
+            ),
+            87 => 
+            array (
+                'id' => 199,
+                'data_type_id' => 29,
+                'field' => 'created_at',
+                'type' => 'timestamp',
+                'display_name' => 'Criado em',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 0,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 8,
+            ),
+            88 => 
+            array (
+                'id' => 200,
+                'data_type_id' => 29,
+                'field' => 'updated_at',
+                'type' => 'timestamp',
+                'display_name' => 'Atualizado em',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 9,
+            ),
+            89 => 
+            array (
+                'id' => 201,
+                'data_type_id' => 29,
+                'field' => 'deleted_at',
+                'type' => 'timestamp',
+                'display_name' => 'Deletado em',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 10,
+            ),
+            90 => 
+            array (
+                'id' => 202,
+                'data_type_id' => 29,
+                'field' => 'customer_id',
+                'type' => 'text',
+                'display_name' => 'Cliente',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 1,
+            ),
+            91 => 
+            array (
+                'id' => 203,
+                'data_type_id' => 12,
+                'field' => 'customers_has_group_class_belongsto_customer_relationship',
+                'type' => 'relationship',
+                'display_name' => 'customers',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Customer","table":"customers","type":"belongsTo","column":"customer_id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 7,
+            ),
+            92 => 
+            array (
+                'id' => 204,
+                'data_type_id' => 12,
+                'field' => 'customers_has_group_class_belongsto_group_class_relationship',
+                'type' => 'relationship',
+                'display_name' => 'group_classes',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\GroupClass","table":"group_classes","type":"belongsTo","column":"group_class_id","key":"id","label":"title","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 8,
+            ),
+            93 => 
+            array (
+                'id' => 205,
+                'data_type_id' => 12,
+                'field' => 'customers_has_group_class_hasone_instructor_relationship',
+                'type' => 'relationship',
+                'display_name' => 'instructors',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Instructor","table":"instructors","type":"hasOne","column":"id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":null}',
+                'order' => 9,
+            ),
+            94 => 
+            array (
+                'id' => 206,
+                'data_type_id' => 11,
+                'field' => 'instructor_id',
+                'type' => 'text',
+                'display_name' => 'Instructor Id',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 9,
+            ),
+            95 => 
+            array (
+                'id' => 207,
+                'data_type_id' => 8,
+                'field' => 'instructor_hasone_user_relationship',
+                'type' => 'relationship',
+                'display_name' => 'users',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"app\\\\User","table":"users","type":"hasOne","column":"id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":null}',
+                'order' => 8,
+            ),
+            96 => 
+            array (
+                'id' => 208,
+                'data_type_id' => 28,
+                'field' => 'customer_id',
+                'type' => 'text',
+                'display_name' => 'Customer Id',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 10,
+            ),
+            97 => 
+            array (
+                'id' => 209,
+                'data_type_id' => 28,
+                'field' => 'vacation_hasone_customer_relationship',
+                'type' => 'relationship',
+                'display_name' => 'Cliente',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Customer","table":"customers","type":"hasOne","column":"id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 1,
             ),
         ));
         
