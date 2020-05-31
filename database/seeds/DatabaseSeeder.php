@@ -31,5 +31,6 @@ class DatabaseSeeder extends Seeder
         $this->call(MigrationsTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
         $this->call(VacationsTableSeeder::class);
+        $this->call(PermissionsTableSeeder::class);
     }
 }
