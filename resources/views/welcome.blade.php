@@ -7,14 +7,13 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/app.css">
         
         
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -30,10 +29,10 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Pedal Power Gym
-                </div>             
+                <div class="bg-home"></div>
+                <div class="title">
+                    <div class="logo">Pedal Power Gym </div>                   
+                </div>                             
             </div>
-        </div>
     </body>
 </html>
